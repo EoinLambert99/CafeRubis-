@@ -5,6 +5,7 @@ void setup()
 {
   size(800, 600);
   loadData();
+  printProducts();
 }
 
 void loadData()
@@ -16,6 +17,14 @@ void loadData()
      bill.add(product);
      
    }
+}
+
+void printProducts()
+{
+  for(Product product:bill)
+  {
+    println(product);
+  }
 }
 
 ArrayList<Product> product = new ArrayList<Product>(); 
