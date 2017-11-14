@@ -13,7 +13,7 @@ class Product
   String toString()
   {
     return name
-      + "," + price;
+      + " " + price;
   }
 
 }
